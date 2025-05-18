@@ -1,0 +1,134 @@
+.features3-layout253 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.features3-max-width {
+  gap: var(--dl-layout-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.features3-section-title {
+  flex: 1;
+  align-items: flex-start;
+}
+ 
+.features3-content1 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+ 
+.features3-content2 {
+  flex: 1;
+}
+ 
+.features3-list-item1 {
+  align-items: center;
+}
+ 
+.features3-content3 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  align-self: stretch;
+}
+ 
+.features3-content4 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  align-self: stretch;
+}
+ 
+.features3-list2 {
+  gap: 48px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.features3-content5 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  align-self: stretch;
+}
+ 
+.features3-content6 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  align-self: stretch;
+}
+ 
+.features3-fragment1 {
+  display: contents;
+}
+ 
+.features3-text3 {
+  display: inline-block;
+}
+ 
+.features3-fragment2 {
+  display: contents;
+}
+ 
+.features3-text4 {
+  display: inline-block;
+}
+ 
+.features3-fragment3 {
+  display: contents;
+}
+ 
+.features3-text5 {
+  display: inline-block;
+}
+ 
+.features3-fragment4 {
+  display: contents;
+}
+ 
+.features3-text6 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .features3-layout253 {
+    flex-direction: column;
+  }
+  .features3-max-width {
+    gap: var(--dl-layout-space-twounits);
+    flex-direction: column;
+  }
+  .features3-section-title {
+    width: 100%;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .features3-actions {
+    flex-wrap: wrap;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .features3-max-width {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+  .features3-actions {
+    width: 100%;
+  }
+  .features3-button1 {
+    width: 100%;
+  }
+  .features3-button2 {
+    width: 100%;
+  }
+  .features3-list1 {
+    flex-direction: column;
+  }
+  .features3-list2 {
+    flex-direction: column;
+  }
+}

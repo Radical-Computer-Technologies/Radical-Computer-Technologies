@@ -25,13 +25,16 @@
   font-style: normal;
   font-family: "Poppins";
   font-weight: 600;
-  line-height: 36px;
+  line-height: 22px;
+  text-transform: capitalize;
 }
  
-.card-description {
-  color: var(--dl-color-gray-black);
-  font-family: "Poppins";
-  line-height: 28px;
+.card-fragment {
+  display: contents;
+}
+ 
+.card-text {
+  display: inline-block;
 }
  
 
@@ -39,20 +42,6 @@
 
  
 
- 
-.cardroot-class-name3 {
-  height: auto;
-  max-width: 500px;
-  min-width: 500px;
-  align-self: center;
-  margin-top: 20px;
-  max-height: 180px;
-  min-height: 180px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 20px;
-  background-color: #80FF44;
-}
  
 @media(max-width: 991px) {
   .cardroot-class-name {
