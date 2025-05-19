@@ -67,14 +67,15 @@
               ><span class="navbar-text1"
                 ><fragment class="f-pi-ga-fragment"
                   ><span class="f-pi-ga-text100"
-                    >Documention &amp; Guides</span
+                    >Documentation &amp; Guides</span
                   ></fragment
                 ></span
               ></div
             ><div class="navbar-nav-content"
               ><div class="navbar-nav-links"
-                ><span class="navbar-link1 nav-link">Articles</span
-                ><span class="navbar-link2 nav-link">Contribute</span></div
+                ><a href="contribute.html" class="navbar-link nav-link"
+                  >Contribute</a
+                ></div
               ><div id="open-mobile-menu" class="navbar-hamburger get-started"
                 ><img
                   alt="image"
@@ -131,13 +132,40 @@
           ></navbar-wrapper
         ><div class="f-pi-ga-container11"
           ><div class="f-pi-ga-container12"
-            ><h1 class="f-pi-ga-text101">
-              FPiGA Ecosystem Documentation</h1
-            ></div
+            ><h1 class="f-pi-ga-text101"> FPiGA Core: Crimson</h1></div
           ></div
+        ><h1 class="f-pi-ga-text102"> Links</h1
+        ><ul class="f-pi-ga-ul10 list"
+          ><li class="f-pi-ga-li10 list-item"
+            ><a
+              href="https://github.com/Radical-Computer-Technologies/FPiGA-CoreLib"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="f-pi-ga-link1"
+              >FPiGA Core Library Repository</a
+            ></li
+          ><li class="f-pi-ga-li11 list-item"
+            ><a
+              href="https://github.com/Radical-Computer-Technologies/FPiGA-CoreLib/tree/dev-crimson"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="f-pi-ga-link2"
+              >FPiGA Development Branch</a
+            ></li
+          ><a
+            href="https://github.com/Radical-Computer-Technologies/FPiGA-CoreLib/issues"
+            target="_blank"
+            rel="noreferrer noopener"
+            ><li class="f-pi-ga-li12 list-item"
+              ><span class="f-pi-ga-text103">FPiGA Issues</span></li
+            ></a
+          ></ul
         ><div class="f-pi-ga-container13"
           ><div data-thq="accordion" class="f-pi-ga-system-intro"
-            ><details data-thq="accordion-trigger" class="f-pi-ga-trigger10"
+            ><details
+              open="true"
+              data-thq="accordion-trigger"
+              class="f-pi-ga-trigger10"
               ><summary data-thq="accordion-summary" class="f-pi-ga-summary10"
                 ><span><span>System Introduction</span><br /></span
                 ><div data-thq="accordion-icon" class="f-pi-ga-icon-container10"
@@ -148,70 +176,100 @@
                     ></path></svg></div></summary></details
             ><div data-thq="accordion-content"
               ><div class="f-pi-ga-container14"
-                ><h1 class="f-pi-ga-text105"> Overview</h1
-                ><span class="f-pi-ga-text106"
-                  ><span
-                    >FPiGA was bred out of the interest of defining a hardware
-                    and software standard for interfacing FPGAs with Raspberry
-                    Pi type platforms. To date, there has not been a
-                    standardized approach to interfacing with Raspberry Pis from
-                    FPGAs. This has led to a calvacade of different
-                    implementations. To simplify the matter and to approach this
-                    from a KISS ("keep it simple, stupid") approach, this
-                    project aims to develop standard hardware interfaces,
-                    standardized HDL IP libraries, standardized device drivers,
-                    and standardized hardware libraries to simplify
-                    development.</span
-                  ><br /><br /></span
-                ><h1 class="f-pi-ga-text110"
+                ><h1 class="f-pi-ga-text107"> Overview</h1
+                ><h1 class="f-pi-ga-text108"
                   ><span> </span
-                  ><span class="f-pi-ga-text112"
+                  ><span
+                    >Introducing FPiGA: A Unified FPGA-to-Raspberry Pi Interface
+                    Standard</span
+                  ></h1
+                ><span class="f-pi-ga-text111"
+                  ><span
+                    >FPiGA was born from the need to establish a consistent,
+                    streamlined standard for interfacing FPGAs with Raspberry
+                    Pi–class platforms. Until now, no widely adopted methodology
+                    has existed, resulting in a fragmented landscape of
+                    incompatible and inconsistent implementations.</span
+                  ><br /><br /><span
+                    >FPiGA addresses this gap with a “Keep It Simple, Stupid”
+                    (KISS) philosophy — aiming to reduce complexity while
+                    enhancing reliability. The project focuses on delivering a
+                    cohesive ecosystem that includes:</span
+                  ><br /></span
+                ><ul class="f-pi-ga-ul11 list"
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-text117"
+                      >*&nbsp;Standardized hardware interfaces</span
+                    ></li
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-text118"
+                      >* Reusable HDL IP libraries</span
+                    ></li
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-text119"
+                      >* Unified device drivers</span
+                    ></li
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-text120"
+                      >* Consistent hardware abstraction libraries</span
+                    ></li
+                  ></ul
+                ><span class="f-pi-ga-text121"
+                  ><span
+                    >By defining clear and reliable standards, FPiGA simplifies
+                    development, encourages interoperability, and accelerates
+                    innovation across FPGA and Raspberry Pi integration
+                    projects.</span
+                  ><br /></span
+                ><h1 class="f-pi-ga-text124"
+                  ><span> </span
+                  ><span class="f-pi-ga-text126"
                     >Core Concepts Of Compliance</span
                   ></h1
-                ><ul class="f-pi-ga-ul10 list"
+                ><ul class="f-pi-ga-ul12 list"
                   ><li class="list-item"
-                    ><span class="f-pi-ga-text113"
+                    ><span class="f-pi-ga-text127"
                       >1. Maintain standard hardware interfacing as defined by
                       the FPiGA System</span
                     ></li
                   ><li class="list-item"
-                    ><span class="f-pi-ga-text114"
+                    ><span class="f-pi-ga-text128"
                       >2. Maintain standard kernel/bare metal drivers for
                       interfacing</span
                     ></li
                   ><li class="list-item"
-                    ><span class="f-pi-ga-text115"
+                    ><span class="f-pi-ga-text129"
                       >3. Maintain standard HDL IP Cores across various
                       vendors</span
                     ></li
                   ><li class="list-item"
-                    ><span class="f-pi-ga-text116"
+                    ><span class="f-pi-ga-text130"
                       >4. Maintain standard user space software libraries</span
                     ></li
                   ></ul
-                ><h1 class="f-pi-ga-text117"> Hardware Interfaces</h1
-                ><span class="f-pi-ga-text118"
+                ><h1 class="f-pi-ga-text131"> Hardware Interfaces</h1
+                ><span class="f-pi-ga-text132"
                   ><span
                     >Hardware interfaces can currently be separated into two
                     standardized formats (CPU&lt;-&gt;FPGA and FPGA
                     Interfaces).</span
-                  ><br /><span class="f-pi-ga-text121">C2FPGA Interface</span
+                  ><br /><span class="f-pi-ga-text135">C2FPGA Interface</span
                   ><span>
                     (CPU to/from FPGA) -&nbsp;These interfaces provide
                     communication and data transfer to/from CPUs and
                     FPGAs.</span
-                  ><br /><span class="f-pi-ga-text124">FPGA Interface</span
+                  ><br /><span class="f-pi-ga-text138">FPGA Interface</span
                   ><span>
                     -&nbsp;These Interfaces proved communication and data
                     transfer to/from FPGAs and other hardware devices.</span
                   ><br /></span
-                ><h1 class="f-pi-ga-text127">FPiGA Core Lib</h1
+                ><h1 class="f-pi-ga-text141">FPiGA Core Lib</h1
                 ><h1 class="f-pi-ga-software-and-drivers"
                   ><span> </span
-                  ><span class="f-pi-ga-text129">Software And Drivers</span></h1
+                  ><span class="f-pi-ga-text143">Software And Drivers</span></h1
                 ><h1 class="f-pi-gafpgahdl"
                   ><span> </span
-                  ><span class="f-pi-ga-text131">FPGA HDL</span></h1
+                  ><span class="f-pi-ga-text145">FPGA HDL</span></h1
                 ></div
               ></div
             ></div
@@ -508,128 +566,128 @@
             ><div data-thq="accordion-content"
               ><div class="f-pi-ga-container36"
                 ><div class="f-pi-ga-supported-interfaces"
-                  ><h1 class="f-pi-ga-text149">Supported CFPGA Interfaces</h1
-                  ><h1 class="f-pi-ga-text150">Supported FPGA Interfaces</h1
-                  ><ul class="f-pi-ga-ul11 list"
-                    ><li class="list-item"
-                      ><span class="f-pi-ga-text151">I2C</span></li
-                    ><li class="list-item"
-                      ><span class="f-pi-ga-text152">I2S</span></li
-                    ><li class="list-item"></li
-                    ><li class="list-item"></li></ul
-                  ><ul class="f-pi-ga-ul12 list"
-                    ><li class="list-item"
-                      ><span class="f-pi-ga-text153">FPGA 8 Pin</span></li
-                    ><li class="list-item"
-                      ><span class="f-pi-ga-text154">I2S</span></li
-                    ><li class="list-item"></li
-                    ><li class="list-item"></li></ul></div
-                ><div class="f-pi-ga-planned-interfaces"
-                  ><h1 class="f-pi-ga-text155">Planned CFPGA Interfaces</h1
-                  ><h1 class="f-pi-ga-text156">Planned FPGA Interfaces</h1
+                  ><h1 class="f-pi-ga-text163">Supported CFPGA Interfaces</h1
+                  ><h1 class="f-pi-ga-text164">Supported FPGA Interfaces</h1
                   ><ul class="f-pi-ga-ul13 list"
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text157">SPI</span></li
+                      ><span class="f-pi-ga-text165">I2C</span></li
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text158">SMI</span></li
-                    ><li class="list-item"
-                      ><span class="f-pi-ga-text159">PCIe</span></li
-                    ><li class="list-item"
-                      ><span class="f-pi-ga-text160">MIPI</span></li
-                    ><li class="list-item"
-                      ><span class="f-pi-ga-text161">USB</span></li
+                      ><span class="f-pi-ga-text166">I2S</span></li
                     ><li class="list-item"></li
                     ><li class="list-item"></li></ul
                   ><ul class="f-pi-ga-ul14 list"
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text162">PMOD</span></li
+                      ><span class="f-pi-ga-text167">FPGA 8 Pin</span></li
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text163">SYGYZY</span></li
+                      ><span class="f-pi-ga-text168">I2S</span></li
+                    ><li class="list-item"></li
+                    ><li class="list-item"></li></ul></div
+                ><div class="f-pi-ga-planned-interfaces"
+                  ><h1 class="f-pi-ga-text169">Planned CFPGA Interfaces</h1
+                  ><h1 class="f-pi-ga-text170">Planned FPGA Interfaces</h1
+                  ><ul class="f-pi-ga-ul15 list"
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text164">FMC</span></li
+                      ><span class="f-pi-ga-text171">SPI</span></li
+                    ><li class="list-item"
+                      ><span class="f-pi-ga-text172">SMI</span></li
+                    ><li class="list-item"
+                      ><span class="f-pi-ga-text173">PCIe</span></li
+                    ><li class="list-item"
+                      ><span class="f-pi-ga-text174">MIPI</span></li
+                    ><li class="list-item"
+                      ><span class="f-pi-ga-text175">USB</span></li
+                    ><li class="list-item"></li
+                    ><li class="list-item"></li></ul
+                  ><ul class="f-pi-ga-ul16 list"
+                    ><li class="list-item"
+                      ><span class="f-pi-ga-text176">PMOD</span></li
+                    ><li class="list-item"
+                      ><span class="f-pi-ga-text177">SYGYZY</span></li
+                    ><li class="list-item"
+                      ><span class="f-pi-ga-text178">FMC</span></li
                     ><li class="list-item"></li
                     ><li class="list-item"></li></ul></div
                 ><div class="f-pi-ga-container37"
-                  ><h1 class="f-pi-ga-text165">Supported ARM OS</h1
-                  ><h1 class="f-pi-ga-text166">Supported Bare Metal</h1
-                  ><h1 class="f-pi-ga-text167"
+                  ><h1 class="f-pi-ga-text179">Supported ARM OS</h1
+                  ><h1 class="f-pi-ga-text180">Supported Bare Metal</h1
+                  ><h1 class="f-pi-ga-text181"
                     >Supported Driver Interfaces&nbsp;</h1
-                  ><ul class="f-pi-ga-ul15 list"
-                    ><li class="list-item"
-                      ><span class="f-pi-ga-text168"
-                        ><span>Raspberry Pi OS ARM32 &amp; ARM64</span
-                        ><br /></span></li></ul
-                  ><ul class="f-pi-ga-ul16 list"
-                    ><li class="list-item"
-                      ><span class="f-pi-ga-text171"
-                        ><span>Raspberry Pi Circle</span><br /></span></li></ul
                   ><ul class="f-pi-ga-ul17 list"
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text174">I2C</span></li
+                      ><span class="f-pi-ga-text182"
+                        ><span>Raspberry Pi OS ARM32 &amp; ARM64</span
+                        ><br /></span></li></ul
+                  ><ul class="f-pi-ga-ul18 list"
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text175">I2S</span></li
+                      ><span class="f-pi-ga-text185"
+                        ><span>Raspberry Pi Circle</span><br /></span></li></ul
+                  ><ul class="f-pi-ga-ul19 list"
+                    ><li class="list-item"
+                      ><span class="f-pi-ga-text188">I2C</span></li
+                    ><li class="list-item"
+                      ><span class="f-pi-ga-text189">I2S</span></li
                     ><li class="list-item"></li
                     ><li class="list-item"></li></ul
-                  ><h1 class="f-pi-ga-text176">Supported SoC Devices</h1
-                  ><h1 class="f-pi-ga-text177">Planned OS/Bare Support</h1
-                  ><h1 class="f-pi-ga-text178">Planned SoC Device Support</h1
-                  ><ul class="f-pi-ga-ul18 list"
-                    ><li class="f-pi-ga-li40 list-item"
-                      ><span class="f-pi-ga-text179"
+                  ><h1 class="f-pi-ga-text190">Supported SoC Devices</h1
+                  ><h1 class="f-pi-ga-text191">Planned OS/Bare Support</h1
+                  ><h1 class="f-pi-ga-text192">Planned SoC Device Support</h1
+                  ><ul class="f-pi-ga-ul20 list"
+                    ><li class="f-pi-ga-li47 list-item"
+                      ><span class="f-pi-ga-text193"
                         ><span>Raspberry Pi </span><br /><span
                           >(2,3,4,5,CM4,CM5,Zero,Zero2W)</span
                         ><br /><br /></span></li></ul
-                  ><ul class="f-pi-ga-ul19 list"
+                  ><ul class="f-pi-ga-ul21 list"
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text185"
+                      ><span class="f-pi-ga-text199"
                         >Debian ARM32 &amp; ARM64</span
                       ></li
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text186"
+                      ><span class="f-pi-ga-text200"
                         >Ubuntu ARM32 &amp; ARM64</span
                       ></li
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text187"
+                      ><span class="f-pi-ga-text201"
                         >Yocto ARM32 &amp; ARM64</span
                       ></li
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text188">FreeRTOS</span></li
+                      ><span class="f-pi-ga-text202">FreeRTOS</span></li
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text189">Zephyr</span></li
+                      ><span class="f-pi-ga-text203">Zephyr</span></li
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text190"
+                      ><span class="f-pi-ga-text204"
                         >Raspberry Pi Pico C/C++</span
                       ></li
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text191"
+                      ><span class="f-pi-ga-text205"
                         >Raspberry Pi Pico Micropython</span
                       ></li
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text192">Debian x86</span></li
+                      ><span class="f-pi-ga-text206">Debian x86</span></li
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text193">Ubuntu x86</span></li
+                      ><span class="f-pi-ga-text207">Ubuntu x86</span></li
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text194"
+                      ><span class="f-pi-ga-text208"
                         >Windows ARM32 &amp; ARM64</span
                       ></li
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text195">Windows x86</span></li
+                      ><span class="f-pi-ga-text209">Windows x86</span></li
                     ></ul
-                  ><ul class="f-pi-ga-ul20 list"
+                  ><ul class="f-pi-ga-ul22 list"
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text196"
+                      ><span class="f-pi-ga-text210"
                         >Radxa Rock3, Rock5, RockCM3, RockCM5, Rock Zero3W, X2L,
                         X4</span
                       ></li
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text197">Orange Pi</span></li
+                      ><span class="f-pi-ga-text211">Orange Pi</span></li
                     ></ul
                   ></div
-                ><h1 class="f-pi-ga-text198">Supported FPGAVendors</h1
+                ><h1 class="f-pi-ga-text212">Supported FPGAVendors</h1
                 ><div class="f-pi-ga-container38"
-                  ><ul class="f-pi-ga-ul21 list"
+                  ><ul class="f-pi-ga-ul23 list"
                     ><li class="list-item"
-                      ><span class="f-pi-ga-text199">Gowin</span></li
+                      ><span class="f-pi-ga-text213">Gowin</span></li
                     ><li class="list-item"></li
                     ><li
                       class="list-item"

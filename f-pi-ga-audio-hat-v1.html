@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>FPiGA-Audio-Hat-V1 - RCT Documentation</title
+    ><meta
+      property="og:title"
+      content="FPiGA-Audio-Hat-V1 - RCT Documentation"
+    /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background: var(--dl-color-gray-white);
+
+        fill: var(--dl-color-gray-black);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./f-pi-ga-audio-hat-v1.css" rel="stylesheet" /><div
+        class="f-pi-ga-audio-hat-v1-container1"
+        ><navbar-wrapper class="navbar-wrapper" rootclassname="navbarundefined"
+          ><!--Navbar component--><header
+            class="navbar-navbar navbarroot-class-name7"
+            ><div class="navbar-container1"
+              ><a href="index.html" class="navbar-navlink"
+                ><img
+                  alt="image"
+                  src="public/Branding/radvectorlogo-whitetrp.svg"
+                  class="navbar-image1" /></a
+              ><span class="navbar-text1"
+                ><fragment class="f-pi-ga-audio-hat-v1-fragment"
+                  ><span class="f-pi-ga-audio-hat-v1-text10"
+                    >Documentation &amp; Guides</span
+                  ></fragment
+                ></span
+              ></div
+            ><div class="navbar-nav-content"
+              ><div class="navbar-nav-links"
+                ><a href="contribute.html" class="navbar-link nav-link"
+                  >Contribute</a
+                ></div
+              ><div id="open-mobile-menu" class="navbar-hamburger get-started"
+                ><img
+                  alt="image"
+                  src="https:/play.teleporthq.io/static/svg/placeholders/no-image.svg"
+                  class="navbar-image2" /></div></div
+            ><div
+              ><div class="navbar-container3"
+                ><script defer="">
+                      /*
+                  Mobile menu - Code Embed
+                  */
+
+                  /* listenForUrlChangesMobileMenu() makes sure that if you changes pages inside your app,
+                  the mobile menu will still work*/
+
+                  const listenForUrlChangesMobileMenu = () => {
+                      let url = location.href;
+                      document.body.addEventListener('click', () => {
+                          requestAnimationFrame(() => {
+                              if (url !== location.href) {
+                                  runMobileMenuCodeEmbed();
+                                  url = location.href;
+                              }
+                          });
+                      },
+                      true
+                      );
+                  };
+
+                  const runMobileMenuCodeEmbed = () => {
+                      // Mobile menu
+                      const mobileMenu = document.querySelector('#mobile-menu')
+
+                      // Buttons
+                      const closeButton = document.querySelector('#close-mobile-menu')
+                      const openButton = document.querySelector('#open-mobile-menu')
+
+                      // On openButton click, set the mobileMenu position left to -100vw
+                      openButton && openButton.addEventListener('click', function() {
+                          mobileMenu.style.transform = 'translateX(0%)'
+                      })
+
+                      // On closeButton click, set the mobileMenu position to 0vw
+                      closeButton && closeButton.addEventListener('click', function() {
+                          mobileMenu.style.transform = 'translateX(100%)'
+                      })
+                  }
+
+                  runMobileMenuCodeEmbed()
+                  listenForUrlChangesMobileMenu()
+                </script></div
+              ></div
+            ></header
+          ></navbar-wrapper
+        ><div class="f-pi-ga-audio-hat-v1-container2"
+          ><div class="f-pi-ga-audio-hat-v1-container3"
+            ><h1 class="f-pi-ga-audio-hat-v1-text11">
+              FPiGA Audio Hat v1</h1
+            ></div
+          ></div
+        ><img
+          alt="image"
+          src="public/SectionImages/fpiga_audio-overhead1-700h.png"
+          class="f-pi-ga-audio-hat-v1-image" /><div
+          class="f-pi-ga-audio-hat-v1-container4"
+          ><div data-thq="accordion" class="f-pi-ga-audio-hat-v1-system-intro"
+            ><details
+              open="true"
+              data-thq="accordion-trigger"
+              class="f-pi-ga-audio-hat-v1-trigger"
+              ><summary
+                data-thq="accordion-summary"
+                class="f-pi-ga-audio-hat-v1-summary"
+                ><span><span>Overview</span><br /></span
+                ><div
+                  data-thq="accordion-icon"
+                  class="f-pi-ga-audio-hat-v1-icon-container"
+                  ><svg width="32" height="32" viewBox="0 0 24 24">
+                    <path
+                      d="m12 14l-4-4h8z"
+                      fill="currentColor"
+                    ></path></svg></div></summary></details
+            ><div data-thq="accordion-content"
+              ><div class="f-pi-ga-audio-hat-v1-container5"
+                ><h1 class="f-pi-ga-audio-hat-v1-text15"> Overview</h1
+                ><span class="f-pi-ga-audio-hat-v1-text16"
+                  ><span
+                    >FPiGA was bred out of the interest of defining a hardware
+                    and software standard for interfacing FPGAs with Raspberry
+                    Pi type platforms. To date, there has not been a
+                    standardized approach to interfacing with Raspberry Pis from
+                    FPGAs. This has led to a calvacade of different
+                    implementations. To simplify the matter and to approach this
+                    from a KISS ("keep it simple, stupid") approach, this
+                    project aims to develop standard hardware interfaces,
+                    standardized HDL IP libraries, standardized device drivers,
+                    and standardized hardware libraries to simplify
+                    development.</span
+                  ><br /><br /></span
+                ><h1 class="f-pi-ga-audio-hat-v1-text20">Supported Features</h1
+                ><ul class="f-pi-ga-audio-hat-v1-ul1 list"
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text21"
+                      >*&nbsp;Multiple Audio Pathways offering Real time, single
+                      sample latency processing via FPGA Module</span
+                    ></li
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text22"
+                      >*&nbsp;MIDI Input/Output via both USB and hardware MIDI
+                      interfaces through 3.5mm connectors</span
+                    ></li
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text23"
+                      >*&nbsp;Flashing FPGA bitfile from IO Pins using
+                      OpenFPGALoader</span
+                    ></li
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text24"
+                      >*&nbsp;SSM2603 Hi-Fi Audio Codec w/ programmable gain
+                      amplifiers and up to 96kSample rate</span
+                    ></li
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text25"
+                      >*&nbsp;Ability to generate I2S clocking from
+                      ADC+Crystal</span
+                    ></li
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text26"
+                      >*&nbsp;Audio Line Input, Microphone input, Line Output,
+                      and Headphones Output</span
+                    ></li
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text27"
+                      >*&nbsp;SSM2603+FPGA combined I2C/Alsa Kernel Driver +
+                      Userspace C/C++ API Library</span
+                    ></li
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text28"
+                      >*&nbsp;FPGA control Via I2C interface and Userspace
+                      Driver</span
+                    ></li
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text29"
+                      >*&nbsp;Expanded 40 Pin header as well as 8 pin breakout
+                      from FPGA IO (To support expansion via hat stacking)</span
+                    ></li
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text30"
+                      >*&nbsp;Custom (tuned) Pi OS Image for Audio Use w/
+                      supporting software/drivers for hat board</span
+                    ></li
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text31"
+                      >*&nbsp;FPGA reference design for HDL developers</span
+                    ></li
+                  ></ul
+                ><h1 class="f-pi-ga-audio-hat-v1-text32">Signal Path Options</h1
+                ><ul class="f-pi-ga-audio-hat-v1-ul2 list"
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text33"
+                      >*&nbsp;Pi I2S Out -&gt; FPGA -&gt; Codec I2S DAC &amp;
+                      Codec ADC Input -&gt; FPGA -&gt; Pi I2S Input</span
+                    ></li
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text34"
+                      >*&nbsp;Codec ADC Input -&gt; FPGA -&gt; Codec I2S
+                      DAC</span
+                    ></li
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text35"
+                      >*&nbsp;Codec ADC Input -&gt; FPGA Input -&gt; Pi I2S
+                      Input &amp; FPGA generated output -&gt; Codec I2S
+                      DAC</span
+                    ></li
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text36"
+                      >*&nbsp;FPGA generated sound -&gt; Pi I2S Input &amp; Pi
+                      I2s output -&gt; FPGA -&gt; Codec I2S DAC</span
+                    ></li
+                  ></ul
+                ><h1 class="f-pi-ga-audio-hat-v1-text37">Driver Support</h1
+                ><ul class="f-pi-ga-audio-hat-v1-ul3 list"
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text38"
+                      >*&nbsp;Raspberry Pi OS Kernel Driver</span
+                    ></li
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text39"
+                      >*&nbsp;Raspberry Pi Circle Bare Metal Driver</span
+                    ></li
+                  ></ul
+                ><h1 class="f-pi-ga-audio-hat-v1-text40"> FPGA Info</h1
+                ><ul class="f-pi-ga-audio-hat-v1-ul4 list"
+                  ><li class="list-item"
+                    ><a
+                      href="https://wiki.sipeed.com/hardware/en/tang/tang-primer-25k/primer-25k.html"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="f-pi-ga-audio-hat-v1-link"
+                      >*&nbsp;Sipeed Tang Primer 25K Module utilizing
+                      Gowin&nbsp;GW5A-LV25MG121 FPGA</a
+                    ></li
+                  ><li class="list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text41"
+                      ><span>*&nbsp;Number of LUTS -&nbsp;23040</span
+                      ><br /></span></li
+                  ><li class="f-pi-ga-audio-hat-v1-li29 list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text44"
+                      ><span>*&nbsp;Registers/FF -&nbsp;23040</span
+                      ><br /><br /></span></li
+                  ><li class="f-pi-ga-audio-hat-v1-li30 list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text48"
+                      ><span>* SRAM&nbsp;180Kbits</span><br /><br /></span></li
+                  ><li class="f-pi-ga-audio-hat-v1-li31 list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text52"
+                      ><span>* BRAM&nbsp;1008Kbits</span><br /></span></li
+                  ><li class="f-pi-ga-audio-hat-v1-li32 list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text55"
+                      ><span>* DSP Multipliers - 28</span><br /></span></li
+                  ><li class="f-pi-ga-audio-hat-v1-li33 list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text58"
+                      ><span>* PLLs -&nbsp;6</span><br /></span></li
+                  ><li class="f-pi-ga-audio-hat-v1-li34 list-item"
+                    ><span class="f-pi-ga-audio-hat-v1-text61"
+                      ><span>* Flash Storage - 64Mbits</span
+                      ><br /></span></li></ul></div></div></div></div></div
+    ></div> </body
+></html>

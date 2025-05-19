@@ -1,0 +1,462 @@
+.navbar-wrapper {
+  display: contents;
+}
+ 
+.navbar-navbar {
+  width: 1226px;
+  display: flex;
+  z-index: 1000;
+  position: relative;
+  max-width: 1200px;
+  align-self: auto;
+  align-items: center;
+  flex-shrink: 1;
+  padding-top: var(--dl-layout-space-twounits);
+  padding-left: var(--dl-layout-space-oneandhalfunits);
+  padding-right: var(--dl-layout-space-oneandhalfunits);
+  padding-bottom: var(--dl-layout-space-fiveunits);
+}
+ 
+.navbar-container1 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.navbar-navlink {
+  display: contents;
+}
+ 
+.navbar-image1 {
+  width: 200px;
+  object-fit: cover;
+  text-decoration: none;
+}
+ 
+.navbar-text1 {
+  text-align: center;
+}
+ 
+.navbar-nav-content {
+  gap: var(--dl-layout-space-threeunits);
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+ 
+.navbar-nav-links {
+  gap: var(--dl-layout-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+  border-color: transparent;
+  justify-content: flex-end;
+}
+ 
+.navbar-link {
+  font-size: 22px;
+  text-decoration: none;
+}
+ 
+.navbar-hamburger {
+  display: none;
+}
+ 
+.navbar-image2 {
+  width: 100px;
+  object-fit: cover;
+}
+ 
+.navbar-container3 {
+  display: contents;
+}
+ 
+.f-pi-ga-audio-hat-v1-fragment {
+  display: contents;
+}
+ 
+.f-pi-ga-audio-hat-v1-text10 {
+  color: var(--dl-color-gray-white);
+  display: inline-block;
+}
+ 
+.navbarroot-class-name {
+  flex: initial;
+  width: 100%;
+  overflow: visible;
+  max-width: 1400%;
+  min-width: auto;
+  align-self: flex-start;
+  max-height: 200px;
+}
+ 
+.navbarroot-class-name1 {
+  width: 100%;
+  max-width: 1400%;
+  min-width: auto;
+  align-self: flex-start;
+  max-height: 200px;
+}
+ 
+.navbarroot-class-name2 {
+  width: 100%;
+  height: 200px;
+  max-width: 1400%;
+  align-self: center;
+}
+ 
+.navbarroot-class-name3 {
+  width: 100%;
+  height: 200px;
+  max-width: 1400%;
+  align-self: center;
+}
+ 
+.navbarroot-class-name4 {
+  width: 100%;
+  height: 200px;
+  max-width: 1400%;
+  align-self: center;
+}
+ 
+.navbarroot-class-name5 {
+  width: 100%;
+  height: 200px;
+  max-width: 1400%;
+  align-self: center;
+}
+ 
+.navbarroot-class-name6 {
+  width: 100%;
+  height: 200px;
+  max-width: 1400%;
+  align-self: center;
+}
+ 
+.navbarroot-class-name7 {
+  width: 100%;
+  height: 200px;
+  max-width: 1400%;
+  align-self: center;
+}
+ 
+.navbarroot-class-name8 {
+  width: 100%;
+  height: 200px;
+  max-width: 1400%;
+  align-self: center;
+}
+ 
+@media(max-width: 767px) {
+  .navbar-navbar {
+    padding-bottom: var(--dl-layout-space-fourunits);
+  }
+  .navbar-nav-links {
+    display: none;
+  }
+  .navbar-hamburger {
+    display: flex;
+    padding-left: var(--dl-layout-space-unit);
+    padding-right: var(--dl-layout-space-unit);
+  }
+  .navbar-image2 {
+    width: 16px;
+    height: 14px;
+  }
+}
+
+.f-pi-ga-audio-hat-v1-container1 {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #0F0F0F;
+}
+ 
+.f-pi-ga-audio-hat-v1-fragment {
+  display: contents;
+}
+ 
+.f-pi-ga-audio-hat-v1-text10 {
+  color: var(--dl-color-gray-white);
+  display: inline-block;
+}
+ 
+.f-pi-ga-audio-hat-v1-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.f-pi-ga-audio-hat-v1-container3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+ 
+.f-pi-ga-audio-hat-v1-text11 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 60px;
+  align-self: flex-start;
+  font-style: italic;
+  text-align: left;
+  font-weight: 800;
+  margin-left: var(--dl-layout-space-threeunits);
+  margin-bottom: var(--dl-layout-space-twounits);
+}
+ 
+.f-pi-ga-audio-hat-v1-image {
+  width: 656px;
+  height: 610px;
+  margin-top: 11px;
+  object-fit: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+ 
+.f-pi-ga-audio-hat-v1-container4 {
+  flex: 0 0 auto;
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.f-pi-ga-audio-hat-v1-system-intro {
+  width: 100%;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  flex-direction: column;
+}
+ 
+.f-pi-ga-audio-hat-v1-trigger {
+  cursor: pointer;
+  padding-top: var(--dl-layout-space-halfunit);
+  padding-left: var(--dl-layout-space-oneandhalfunits);
+  padding-right: var(--dl-layout-space-unit);
+  padding-bottom: var(--dl-layout-space-halfunit);
+  background-color: #D9D9D9;
+}
+ 
+.f-pi-ga-audio-hat-v1-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ 
+.f-pi-ga-audio-hat-v1-icon-container {
+  transition: transform 0.3s ease-in-out;
+}
+ 
+.f-pi-ga-audio-hat-v1-container5 {
+  display: flex;
+  padding-top: var(--dl-layout-space-halfunit);
+  padding-left: var(--dl-layout-space-oneandhalfunits);
+  padding-right: var(--dl-layout-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-layout-space-halfunit);
+}
+ 
+.f-pi-ga-audio-hat-v1-text15 {
+  color: rgb(255, 255, 255);
+  align-self: flex-start;
+  margin-left: var(--dl-layout-space-sixunits);
+}
+ 
+.f-pi-ga-audio-hat-v1-text16 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  max-width: 1100px;
+  padding-left: var(--dl-layout-space-sixunits);
+}
+ 
+.f-pi-ga-audio-hat-v1-text20 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  align-self: flex-start;
+  margin-left: var(--dl-layout-space-sixunits);
+}
+ 
+.f-pi-ga-audio-hat-v1-ul1 {
+  width: 960px;
+  height: 224px;
+  margin-left: var(--dl-layout-space-sixunits);
+  margin-right: 5px;
+}
+ 
+.f-pi-ga-audio-hat-v1-text21 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text22 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text23 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text24 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text25 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text26 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text27 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text28 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text29 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text30 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text31 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text32 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  align-self: flex-start;
+  margin-left: var(--dl-layout-space-sixunits);
+}
+ 
+.f-pi-ga-audio-hat-v1-ul2 {
+  width: 960px;
+  height: 79px;
+  margin-left: var(--dl-layout-space-sixunits);
+  margin-right: 5px;
+}
+ 
+.f-pi-ga-audio-hat-v1-text33 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text34 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text35 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text36 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text37 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  align-self: flex-start;
+  margin-left: var(--dl-layout-space-sixunits);
+}
+ 
+.f-pi-ga-audio-hat-v1-ul3 {
+  width: 960px;
+  height: 42px;
+  margin-left: var(--dl-layout-space-sixunits);
+  margin-right: 5px;
+}
+ 
+.f-pi-ga-audio-hat-v1-text38 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text39 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text40 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  align-self: flex-start;
+  margin-left: var(--dl-layout-space-sixunits);
+}
+ 
+.f-pi-ga-audio-hat-v1-ul4 {
+  width: 960px;
+  height: 179px;
+  margin-left: var(--dl-layout-space-sixunits);
+  margin-right: 5px;
+}
+ 
+.f-pi-ga-audio-hat-v1-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+ 
+.f-pi-ga-audio-hat-v1-text41 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-li29 {
+  height: 24px;
+}
+ 
+.f-pi-ga-audio-hat-v1-text44 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-li30 {
+  height: 24px;
+}
+ 
+.f-pi-ga-audio-hat-v1-text48 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-li31 {
+  height: 24px;
+}
+ 
+.f-pi-ga-audio-hat-v1-text52 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-li32 {
+  height: 24px;
+}
+ 
+.f-pi-ga-audio-hat-v1-text55 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-li33 {
+  height: 24px;
+}
+ 
+.f-pi-ga-audio-hat-v1-text58 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-li34 {
+  height: 24px;
+}
+ 
+.f-pi-ga-audio-hat-v1-text61 {
+  color: rgb(255, 255, 255);
+}
