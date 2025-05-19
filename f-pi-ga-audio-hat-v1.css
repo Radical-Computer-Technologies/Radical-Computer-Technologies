@@ -280,7 +280,7 @@
   padding-left: var(--dl-layout-space-sixunits);
 }
  
-.f-pi-ga-audio-hat-v1-text20 {
+.f-pi-ga-audio-hat-v1-text26 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   align-self: flex-start;
@@ -292,30 +292,6 @@
   height: 224px;
   margin-left: var(--dl-layout-space-sixunits);
   margin-right: 5px;
-}
- 
-.f-pi-ga-audio-hat-v1-text21 {
-  color: rgb(255, 255, 255);
-}
- 
-.f-pi-ga-audio-hat-v1-text22 {
-  color: rgb(255, 255, 255);
-}
- 
-.f-pi-ga-audio-hat-v1-text23 {
-  color: rgb(255, 255, 255);
-}
- 
-.f-pi-ga-audio-hat-v1-text24 {
-  color: rgb(255, 255, 255);
-}
- 
-.f-pi-ga-audio-hat-v1-text25 {
-  color: rgb(255, 255, 255);
-}
- 
-.f-pi-ga-audio-hat-v1-text26 {
-  color: rgb(255, 255, 255);
 }
  
 .f-pi-ga-audio-hat-v1-text27 {
@@ -340,16 +316,6 @@
  
 .f-pi-ga-audio-hat-v1-text32 {
   color: rgb(255, 255, 255);
-  font-size: 20px;
-  align-self: flex-start;
-  margin-left: var(--dl-layout-space-sixunits);
-}
- 
-.f-pi-ga-audio-hat-v1-ul2 {
-  width: 960px;
-  height: 79px;
-  margin-left: var(--dl-layout-space-sixunits);
-  margin-right: 5px;
 }
  
 .f-pi-ga-audio-hat-v1-text33 {
@@ -370,6 +336,40 @@
  
 .f-pi-ga-audio-hat-v1-text37 {
   color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text38 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  align-self: flex-start;
+  margin-left: var(--dl-layout-space-sixunits);
+}
+ 
+.f-pi-ga-audio-hat-v1-ul2 {
+  width: 960px;
+  height: 79px;
+  margin-left: var(--dl-layout-space-sixunits);
+  margin-right: 5px;
+}
+ 
+.f-pi-ga-audio-hat-v1-text39 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text40 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text41 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text42 {
+  color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text43 {
+  color: rgb(255, 255, 255);
   font-size: 20px;
   align-self: flex-start;
   margin-left: var(--dl-layout-space-sixunits);
@@ -382,15 +382,15 @@
   margin-right: 5px;
 }
  
-.f-pi-ga-audio-hat-v1-text38 {
+.f-pi-ga-audio-hat-v1-text44 {
   color: rgb(255, 255, 255);
 }
  
-.f-pi-ga-audio-hat-v1-text39 {
+.f-pi-ga-audio-hat-v1-text45 {
   color: rgb(255, 255, 255);
 }
  
-.f-pi-ga-audio-hat-v1-text40 {
+.f-pi-ga-audio-hat-v1-text46 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   align-self: flex-start;
@@ -409,7 +409,7 @@
   text-decoration: none;
 }
  
-.f-pi-ga-audio-hat-v1-text41 {
+.f-pi-ga-audio-hat-v1-text47 {
   color: rgb(255, 255, 255);
 }
  
@@ -417,7 +417,7 @@
   height: 24px;
 }
  
-.f-pi-ga-audio-hat-v1-text44 {
+.f-pi-ga-audio-hat-v1-text50 {
   color: rgb(255, 255, 255);
 }
  
@@ -425,7 +425,7 @@
   height: 24px;
 }
  
-.f-pi-ga-audio-hat-v1-text48 {
+.f-pi-ga-audio-hat-v1-text54 {
   color: rgb(255, 255, 255);
 }
  
@@ -433,7 +433,7 @@
   height: 24px;
 }
  
-.f-pi-ga-audio-hat-v1-text52 {
+.f-pi-ga-audio-hat-v1-text58 {
   color: rgb(255, 255, 255);
 }
  
@@ -441,7 +441,7 @@
   height: 24px;
 }
  
-.f-pi-ga-audio-hat-v1-text55 {
+.f-pi-ga-audio-hat-v1-text61 {
   color: rgb(255, 255, 255);
 }
  
@@ -449,7 +449,7 @@
   height: 24px;
 }
  
-.f-pi-ga-audio-hat-v1-text58 {
+.f-pi-ga-audio-hat-v1-text64 {
   color: rgb(255, 255, 255);
 }
  
@@ -457,6 +457,6 @@
   height: 24px;
 }
  
-.f-pi-ga-audio-hat-v1-text61 {
+.f-pi-ga-audio-hat-v1-text67 {
   color: rgb(255, 255, 255);
 }
