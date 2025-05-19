@@ -215,7 +215,7 @@
   margin-bottom: var(--dl-layout-space-twounits);
 }
  
-.f-pi-ga-audio-hat-v1-image {
+.f-pi-ga-audio-hat-v1-image1 {
   width: 656px;
   height: 610px;
   margin-top: 11px;
@@ -225,6 +225,16 @@
 }
  
 .f-pi-ga-audio-hat-v1-container4 {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+ 
+.f-pi-ga-audio-hat-v1-container5 {
   flex: 0 0 auto;
   width: 90%;
   display: flex;
@@ -232,14 +242,14 @@
   flex-direction: column;
 }
  
-.f-pi-ga-audio-hat-v1-system-intro {
+.f-pi-ga-audio-hat-v1-system-intro1 {
   width: 100%;
   display: flex;
   box-shadow: 5px 5px 10px 0px #d4d4d4;
   flex-direction: column;
 }
  
-.f-pi-ga-audio-hat-v1-trigger {
+.f-pi-ga-audio-hat-v1-trigger1 {
   cursor: pointer;
   padding-top: var(--dl-layout-space-halfunit);
   padding-left: var(--dl-layout-space-oneandhalfunits);
@@ -248,17 +258,17 @@
   background-color: #D9D9D9;
 }
  
-.f-pi-ga-audio-hat-v1-summary {
+.f-pi-ga-audio-hat-v1-summary1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
  
-.f-pi-ga-audio-hat-v1-icon-container {
+.f-pi-ga-audio-hat-v1-icon-container1 {
   transition: transform 0.3s ease-in-out;
 }
  
-.f-pi-ga-audio-hat-v1-container5 {
+.f-pi-ga-audio-hat-v1-container6 {
   display: flex;
   padding-top: var(--dl-layout-space-halfunit);
   padding-left: var(--dl-layout-space-oneandhalfunits);
@@ -459,4 +469,87 @@
  
 .f-pi-ga-audio-hat-v1-text67 {
   color: rgb(255, 255, 255);
+}
+ 
+.f-pi-ga-audio-hat-v1-text70 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  align-self: flex-start;
+  margin-left: var(--dl-layout-space-sixunits);
+}
+ 
+.f-pi-ga-audio-hat-v1-image2 {
+  width: 575px;
+  height: 584px;
+  align-self: center;
+  object-fit: cover;
+}
+ 
+.f-pi-ga-audio-hat-v1-container7 {
+  flex: 0 0 auto;
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.f-pi-ga-audio-hat-v1-system-intro2 {
+  width: 100%;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  flex-direction: column;
+}
+ 
+.f-pi-ga-audio-hat-v1-trigger2 {
+  cursor: pointer;
+  padding-top: var(--dl-layout-space-halfunit);
+  padding-left: var(--dl-layout-space-oneandhalfunits);
+  padding-right: var(--dl-layout-space-unit);
+  padding-bottom: var(--dl-layout-space-halfunit);
+  background-color: #D9D9D9;
+}
+ 
+.f-pi-ga-audio-hat-v1-summary2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ 
+.f-pi-ga-audio-hat-v1-icon-container2 {
+  transition: transform 0.3s ease-in-out;
+}
+ 
+.f-pi-ga-audio-hat-v1-container8 {
+  display: flex;
+  padding-top: var(--dl-layout-space-halfunit);
+  padding-left: var(--dl-layout-space-oneandhalfunits);
+  padding-right: var(--dl-layout-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-layout-space-halfunit);
+}
+ 
+.f-pi-ga-audio-hat-v1-text74 {
+  color: rgb(255, 255, 255);
+  align-self: flex-start;
+  margin-left: var(--dl-layout-space-sixunits);
+}
+ 
+.f-pi-ga-audio-hat-v1-image3 {
+  width: 1307px;
+  height: 1354px;
+  align-self: center;
+  object-fit: cover;
+}
+ 
+.f-pi-ga-audio-hat-v1-text75 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 30px;
+  align-self: flex-start;
+  font-style: italic;
+  margin-top: var(--dl-layout-space-fourunits);
+  text-align: left;
+  font-weight: 800;
+  margin-left: var(--dl-layout-space-threeunits);
+  margin-bottom: var(--dl-layout-space-twounits);
 }
