@@ -44,7 +44,7 @@
   justify-content: flex-start;
 }
  
-.navbar-nav-links1 {
+.navbar-nav-links {
   gap: var(--dl-layout-space-threeunits);
   display: flex;
   align-items: flex-start;
@@ -69,67 +69,7 @@
   object-fit: cover;
 }
  
-.navbar-mobile-menu {
-  gap: var(--dl-layout-space-twounits);
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  padding: var(--dl-layout-space-twounits);
-  z-index: 100;
-  position: fixed;
-  transform: translateX(100%);
-  transition: 0.3s;
-  align-items: stretch;
-  flex-direction: column;
-  background-color: #fff;
-}
- 
-.navbar-branding {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
- 
-.navbar-image3 {
-  width: 100px;
-  filter: brightness(0) saturate(100%);
-  object-fit: cover;
-}
- 
-.navbar-container2 {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
- 
-.navbar-icon1 {
-  width: 24px;
-  height: 24px;
-}
- 
-.navbar-nav-links2 {
-  gap: var(--dl-layout-space-unit);
-  color: var(--dl-color-gray-black);
-  display: flex;
-  flex-direction: column;
-}
- 
-.navbar-text2 {
-  color: rgba(255, 255, 255, 1);
-  align-self: auto;
-  font-style: Medium;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 500;
-  font-stretch: normal;
-  text-decoration: none;
-}
- 
-.navbar-container4 {
+.navbar-container3 {
   display: contents;
 }
  
@@ -137,7 +77,7 @@
   display: contents;
 }
  
-.navbar-text3 {
+.navbar-text2 {
   color: var(--dl-color-gray-white);
   display: inline-block;
 }
@@ -199,7 +139,7 @@
   .navbar-navbar {
     padding-bottom: var(--dl-layout-space-fourunits);
   }
-  .navbar-nav-links1 {
+  .navbar-nav-links {
     display: none;
   }
   .navbar-hamburger {
@@ -210,14 +150,5 @@
   .navbar-image2 {
     width: 16px;
     height: 14px;
-  }
-  .navbar-branding {
-    width: 100%;
-  }
-  .navbar-nav-links2 {
-    margin-top: var(--dl-layout-space-twounits);
-    align-items: flex-start;
-    margin-bottom: var(--dl-layout-space-twounits);
-    justify-content: center;
   }
 }
