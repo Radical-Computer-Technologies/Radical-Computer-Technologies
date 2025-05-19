@@ -57,16 +57,10 @@
 }
  
 .navbar-link1 {
-  color: var(--dl-color-gray-white);
   font-size: 22px;
-  text-decoration: none;
 }
  
 .navbar-link2 {
-  font-size: 22px;
-}
- 
-.navbar-link3 {
   font-size: 22px;
 }
  
@@ -177,6 +171,34 @@
   align-self: center;
 }
  
+.navbarroot-class-name3 {
+  width: 100%;
+  height: 200px;
+  max-width: 1400%;
+  align-self: center;
+}
+ 
+.navbarroot-class-name4 {
+  width: 100%;
+  height: 200px;
+  max-width: 1400%;
+  align-self: center;
+}
+ 
+.navbarroot-class-name5 {
+  width: 100%;
+  height: 200px;
+  max-width: 1400%;
+  align-self: center;
+}
+ 
+.navbarroot-class-name6 {
+  width: 100%;
+  height: 200px;
+  max-width: 1400%;
+  align-self: center;
+}
+ 
 @media(max-width: 767px) {
   .navbar-navbar {
     padding-bottom: var(--dl-layout-space-fourunits);
@@ -269,7 +291,14 @@
   color: rgb(255, 255, 255);
   font-size: 35px;
   text-align: left;
+  transition: 0.3s;
   text-decoration: none;
+}
+ 
+
+ 
+.documentation-navlink1:hover {
+  color: #71e4cd;
 }
  
 .documentation-text12 {
@@ -835,16 +864,38 @@
 .documentation-text25 {
   color: rgb(255, 153, 0);
   font-size: 22px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+ 
+
+ 
+.documentation-text25:hover {
+  color: #ff4c00;
 }
  
 .documentation-li12 {
   width: 199px;
   height: 26px;
+  transition: 0.3s;
 }
  
-.documentation-text26 {
+
+ 
+
+ 
+.documentation-navlink2 {
   color: rgb(255, 153, 0);
   font-size: 22px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+ 
+
+ 
+.documentation-navlink2:hover {
+  fill: #ff4c00;
+  color: #ff4c00;
 }
  
 .documentation-li13 {
@@ -852,9 +903,18 @@
   height: 25px;
 }
  
-.documentation-text27 {
+.documentation-navlink3 {
   color: rgb(255, 153, 0);
   font-size: 22px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+ 
+
+ 
+.documentation-navlink3:hover {
+  fill: #ff4c00;
+  color: #ff4c00;
 }
  
 .documentation-li14 {
@@ -862,9 +922,18 @@
   height: 25px;
 }
  
-.documentation-text28 {
+.documentation-navlink4 {
   color: rgb(255, 153, 0);
   font-size: 22px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+ 
+
+ 
+.documentation-navlink4:hover {
+  fill: #ff4c00;
+  color: #ff4c00;
 }
  
 .documentation-ul2 {
@@ -877,7 +946,7 @@
   padding-left: 0px;
 }
  
-.documentation-text29 {
+.documentation-text26 {
   color: rgb(255, 153, 0);
   font-size: 22px;
 }
@@ -913,7 +982,7 @@
   justify-content: flex-start;
 }
  
-.documentation-navlink2 {
+.documentation-navlink5 {
   color: rgb(255, 255, 255);
   font-size: 35px;
   max-width: var(--dl-layout-size-xxlarge);
@@ -922,14 +991,14 @@
   text-decoration: none;
 }
  
-.documentation-text30 {
+.documentation-text27 {
   color: var(--dl-color-theme-secondary2);
   font-size: 35px;
   padding-left: var(--dl-layout-space-oneandhalfunits);
   padding-right: var(--dl-layout-space-oneandhalfunits);
 }
  
-.documentation-text31 {
+.documentation-text28 {
   color: var(--dl-color-theme-secondary2);
   font-size: 35px;
   margin-left: 55px;
@@ -990,7 +1059,7 @@
   background-color: #595959;
 }
  
-.documentation-text32 {
+.documentation-text29 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -1056,7 +1125,7 @@
   background-color: #595959;
 }
  
-.documentation-text33 {
+.documentation-text30 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -1098,7 +1167,7 @@
   background-color: #595959;
 }
  
-.documentation-text34 {
+.documentation-text31 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -1134,7 +1203,7 @@
   background-color: #595959;
 }
  
-.documentation-text35 {
+.documentation-text32 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -1170,7 +1239,7 @@
   background-color: #595959;
 }
  
-.documentation-text36 {
+.documentation-text33 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -1206,7 +1275,7 @@
   background-color: #595959;
 }
  
-.documentation-text37 {
+.documentation-text34 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -1267,7 +1336,7 @@
   background-color: #595959;
 }
  
-.documentation-text38 {
+.documentation-text35 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -1333,7 +1402,7 @@
   background-color: #595959;
 }
  
-.documentation-text39 {
+.documentation-text36 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -1375,7 +1444,7 @@
   background-color: #595959;
 }
  
-.documentation-text40 {
+.documentation-text37 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -1441,7 +1510,7 @@
   background-color: #595959;
 }
  
-.documentation-text41 {
+.documentation-text38 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -1479,7 +1548,7 @@
   justify-content: flex-start;
 }
  
-.documentation-navlink3 {
+.documentation-navlink6 {
   color: rgba(255, 255, 255, 0);
   font-size: 35px;
   max-width: var(--dl-layout-size-xxlarge);
@@ -1498,7 +1567,7 @@
   height: 26px;
 }
  
-.documentation-text42 {
+.documentation-text39 {
   color: rgb(255, 153, 0);
   font-size: 22px;
 }
@@ -1508,7 +1577,7 @@
   height: 26px;
 }
  
-.documentation-text43 {
+.documentation-text40 {
   color: rgb(255, 153, 0);
   font-size: 22px;
 }
@@ -1518,7 +1587,7 @@
   height: 25px;
 }
  
-.documentation-text44 {
+.documentation-text41 {
   color: rgb(255, 153, 0);
   font-size: 22px;
 }
@@ -1528,7 +1597,7 @@
   height: 25px;
 }
  
-.documentation-text45 {
+.documentation-text42 {
   color: rgb(255, 153, 0);
   font-size: 22px;
 }
@@ -1543,17 +1612,17 @@
   padding-left: 0px;
 }
  
-.documentation-text46 {
+.documentation-text43 {
   color: rgb(255, 153, 0);
   font-size: 22px;
 }
  
-.documentation-text47 {
+.documentation-text44 {
   color: rgb(255, 153, 0);
   font-size: 22px;
 }
  
-.documentation-text48 {
+.documentation-text45 {
   color: rgb(255, 153, 0);
   font-size: 22px;
 }
@@ -1610,7 +1679,7 @@
   background-color: #595959;
 }
  
-.documentation-text49 {
+.documentation-text46 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -1676,7 +1745,7 @@
   background-color: #595959;
 }
  
-.documentation-text50 {
+.documentation-text47 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -1718,7 +1787,7 @@
   background-color: #595959;
 }
  
-.documentation-text51 {
+.documentation-text48 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -1754,7 +1823,7 @@
   background-color: #595959;
 }
  
-.documentation-text52 {
+.documentation-text49 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -1790,7 +1859,7 @@
   background-color: #595959;
 }
  
-.documentation-text53 {
+.documentation-text50 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -1826,7 +1895,7 @@
   background-color: #595959;
 }
  
-.documentation-text54 {
+.documentation-text51 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -1887,7 +1956,7 @@
   background-color: #595959;
 }
  
-.documentation-text55 {
+.documentation-text52 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -1953,7 +2022,7 @@
   background-color: #595959;
 }
  
-.documentation-text56 {
+.documentation-text53 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -1995,7 +2064,7 @@
   background-color: #595959;
 }
  
-.documentation-text57 {
+.documentation-text54 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -2061,7 +2130,7 @@
   background-color: #595959;
 }
  
-.documentation-text58 {
+.documentation-text55 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -2088,7 +2157,7 @@
   justify-content: flex-start;
 }
  
-.documentation-navlink4 {
+.documentation-navlink7 {
   color: rgba(255, 255, 255, 0);
   font-size: 35px;
   max-width: var(--dl-layout-size-xxlarge);

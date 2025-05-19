@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en"
   ><head
-    ><title>RCT Documentation</title
-    ><meta property="og:title" content="RCT Documentation" /><meta
+    ><title>FPGA - RCT Documentation</title
+    ><meta property="og:title" content="FPGA - RCT Documentation" /><meta
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     /><meta charset="utf-8" /><meta
@@ -62,10 +62,10 @@
   </head>
   <body
     ><link rel="stylesheet" href="./style.css" /><div
-      ><link href="./index.css" rel="stylesheet" /><div class="home-container1"
+      ><link href="./fpga.css" rel="stylesheet" /><div class="fpga-container1"
         ><navbar-wrapper class="navbar-wrapper" rootclassname="navbarundefined"
           ><!--Navbar component--><header
-            class="navbar-navbar navbarroot-class-name"
+            class="navbar-navbar navbarroot-class-name3"
             ><div class="navbar-container1"
               ><a href="index.html" class="navbar-navlink"
                 ><img
@@ -73,8 +73,8 @@
                   src="public/Branding/radvectorlogo-whitetrp.svg"
                   class="navbar-image1" /></a
               ><span class="navbar-text1"
-                ><fragment class="home-fragment"
-                  ><span class="home-text10"
+                ><fragment class="fpga-fragment"
+                  ><span class="fpga-text1"
                     >Documention &amp; Guides</span
                   ></fragment
                 ></span
@@ -157,132 +157,8 @@
               ></div
             ></header
           ></navbar-wrapper
-        ><section class="home-section"
-          ><h1 class="home-heading1"
-            ><span>Radical Computer Technologies&nbsp; </span><br /><span
-              class="home-text13"
-              >Documentation and Guides</span
-            ></h1
-          ><span class="home-caption"
-            ><span
-              >This page acts as the documentation and user guide hub for
-              information pertaining to hardware, software, drivers, operating
-              systems, standards, and protocols developed/maintained by Radical
-              Computer Technologies LLC. We believe that one of the most
-              important parts of developing innovative technological solutions
-              is creating clear documentation to aid in implementation, design,
-              integration, and troubleshooting the technology in question.
-              Because of this obligation, we've created this page to act as a
-              host for all in house developments.</span
-            ><br /><span> </span><br /></span
-          ><h1 class="home-heading2">Doc Links</h1
-          ><ul class="home-ul list"
-            ><a href="f-pi-ga.html"
-              ><li class="home-li1 list-item"
-                ><span class="home-text18">FPiGA</span></li
-              ></a
-            ><li class="home-li2 list-item"
-              ><span class="home-text19">FPiGA Audio Hat v1.0</span></li
-            ></ul
-          ></section
-        ><div class="home-container2"
-          ><label class="home-text20"
-            ><br class="home-text21" /><span class="home-text22"
-              >Is something missing or do you want to discuss something
-              else?</span
-            ><br /></label
-          ><div class="home-container3"
-            ><div class="home-get-started1 button"
-              ><a
-                href="https://github.com/Radical-Computer-Technologies/Radical-Computer-Technologies/issues"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="home-text24"
-                >Post an Issue</a
-              ></div
-            ><div class="home-get-started2 button"
-              ><a
-                href="https://github.com/Radical-Computer-Technologies/Radical-Computer-Technologies/issues"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="home-text25"
-                >Start a Discussion</a
-              ></div
-            ></div
-          ></div
-        ><div
-          ><div class="home-container5"
-            ><script>
-                  /*
-              Accordion - Code Embed
-              */
-
-              /* listenForUrlChangesAccordion() makes sure that if you changes pages inside your app,
-              the Accordions will still work*/
-
-              const listenForUrlChangesAccordion = () => {
-                    let url = location.href;
-                    document.body.addEventListener(
-                      'click',
-                      () => {
-                        requestAnimationFrame(() => {
-                          if (url !== location.href) {
-                            runAccordionCodeEmbed();
-                            url = location.href;
-                          }
-                        });
-                      },
-                      true
-                    );
-                  };
-
-
-              const runAccordionCodeEmbed = () => {
-                  const accordionContainers = document.querySelectorAll('[data-role='accordion-container']'); // All accordion containers
-                  const accordionContents = document.querySelectorAll('[data-role='accordion-content']'); // All accordion content
-                  const accordionIcons = document.querySelectorAll('[data-role='accordion-icon']'); // All accordion icons
-
-                  accordionContents.forEach((accordionContent) => {
-                      accordionContent.style.display = 'none'; //Hides all accordion contents
-                  });
-
-                  accordionContainers.forEach((accordionContainer, index) => {
-                      accordionContainer.addEventListener('click', () => {
-                          accordionContents.forEach((accordionContent) => {
-                          accordionContent.style.display = 'none'; //Hides all accordion contents
-                          });
-
-                          accordionIcons.forEach((accordionIcon) => {
-                              accordionIcon.style.transform = 'rotate(0deg)'; // Resets all icon transforms to 0deg (default)
-                          });
-
-                          accordionContents[index].style.display = 'flex'; // Shows accordion content
-                          accordionIcons[index].style.transform = 'rotate(180deg)'; // Rotates accordion icon 180deg
-                      });
-                  });
-              }
-
-              runAccordionCodeEmbed()
-              listenForUrlChangesAccordion()
-
-              /*
-              Here's what the above is doing:
-                  1. Selects all accordion containers, contents, and icons
-                  2. Hides all accordion contents
-                  3. Adds an event listener to each accordion container
-                  4. When an accordion container is clicked, it:
-                      - Hides all accordion contents
-                      - Resets all icon transforms to 0deg (default)
-                      - Checks if this container has class 'accordion-open'
-                          - If it does, it removes class 'accordion-open'
-                          - If it doesn't, it:
-                              - Removes class 'accordion-open' from all containers
-                              - Adds class 'accordion-open' to this container
-                              - Shows accordion content
-                              - Rotates accordion icon 180deg
-              */
-            </script></div
-          ></div
+        ><div class="fpga-container2"
+          ><h1 class="fpga-text2">FPGA Library Documents</h1></div
         ></div
       ></div
     >
